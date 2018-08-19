@@ -27,6 +27,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'vue/no-parsing-error': ['off', {'x-invalid-end-tag': false}],
     'space-before-blocks': 'off',
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    'keyword-spacing': 'off'
   }
 }
