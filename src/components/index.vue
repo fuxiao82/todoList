@@ -11,13 +11,13 @@
       </Col>
       <Col :xs='23' :md='18'>
         <List></List>
-        <Button @click="test = true">test</Button>
-        <Button @click="testSplice = true">testSplice</Button>
+        <!-- <Button @click="test = true">test</Button> -->
+        <!-- <Button @click="testSplice = true">testSplice</Button> -->
         <Table border :columns="columns7" :data="data6"></Table>
       </Col>
     </Row>
-    <div @click='aAdd'>test store add</div>
-    <div @click='minus'>test store minus</div>
+    <!-- <div @click='aAdd'>test store add</div> -->
+    <!-- <div @click='minus'>test store minus</div> -->
   </div>
 </template>
 
